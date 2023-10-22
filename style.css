@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+/*  navBar   */
+
+header {
+	background: #37b6f3;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 96px;
+	padding: 0.5em;
+}
+
+.navBar ul,
+.navBar li {
+	list-style-type: none;
+}
+
+.navBar ul {
+	display: flex;
+	min-width: 290px;
+	justify-content: space-between;
+}
+
+.navBar a {
+	text-decoration: none;
+	color: #f5feff;
+}
+.navBar img {
+	border-radius: 50%;
+	max-width: 57px;
+	object-fit: none;
+}
+
+/*  container  */
+.container {
+	max-width: 1250px;
+	margin: auto;
+}
